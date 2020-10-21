@@ -27,7 +27,7 @@ public class ProjetoNotaFiscal
 	    op=Integer.parseInt(JOptionPane.showInputDialog(menu));
             switch(op){
                         case 1:
-                            //case contendo as entradas de emição de nota, objeto l1, método empilha do objeto p1.
+                            //case contendo as entradas de emissão de nota, objeto l1, método empilha do objeto p1.
                             numero = JOptionPane.showInputDialog("Numero da nota");
                             dataemissaoN = Integer.parseInt(JOptionPane.showInputDialog("Informe a data de emissão: "));
                             naturezaoperaN =JOptionPane.showInputDialog("natureza de operação ?");
